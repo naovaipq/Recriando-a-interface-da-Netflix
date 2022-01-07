@@ -1,0 +1,174 @@
+:root {
+    --vermelho: #EF0914;
+    --preto: #141414;
+    --cinza: rgba(173, 173, 173, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,'Open Sans','Helvetica Neue',sans-serif;
+}
+
+/*base*/
+body {
+    background-color: var(--preto);
+    color: white;
+}
+
+.backgaound-image {
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%),
+        url('../img/capa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+}
+
+header h2 {
+    color: white;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 60px;
+    margin-left: 30px;
+}
+
+header nav {
+    margin-left: 30px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: white;
+    transition: all 0.3s linear;
+}
+
+/*filme principal*/
+.capa-principal {
+    height: 400px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .container {
+    margin-left: 30px;
+}
+
+.filme-principal .descricao {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 70px;
+    /*font-family: 'Josefin Slab', serif;*/
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    margin-top: 30px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.btn-informacoes {
+    background-color: var(--cinza);
+    color: white;
+}
+
+
+.btn i {
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: var(--preto);
+    transition: all 0.3s linear;
+}
+
+.btn-informacoes:hover {
+    background-color: rgb(138, 138, 138);
+    color: white;
+}
+
+.btns-vote {
+    margin-left: 20px;
+}
+
+.btn-vote {
+    border: none;
+    margin-right: 30px;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, .00);
+    color: rgba(173, 173, 173, 0.5);
+}
+
+.btn-vote:hover {
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.voted {
+    color: white;
+}
+
+
+.capitulo h4 {
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.box-skin {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+.carousel-skins {
+    margin-bottom: 20px;
+}
+
+.carousel-skins h4 {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.skin-name {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
